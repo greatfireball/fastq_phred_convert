@@ -8,8 +8,10 @@ The command have to be called with a single fastq filename as single
 parameter. The output will be written to STDOUT.
 
 ### Example
+```bash
 ./fastq_33_to_64.pl input.fq     # this will convert the input file from
                                  # phred offset 33 to 64
+```
 
 ## Author
 Frank Förster (frank.foerster@uni-wuerzburg.de)
