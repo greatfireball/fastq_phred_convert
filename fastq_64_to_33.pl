@@ -7,6 +7,5 @@ use convert;
 
 my $filename = shift @ARGV;
 
-convert::convert($filename, 64, 33);
-
+convert::convert( $filename, 64, 33 );
 
